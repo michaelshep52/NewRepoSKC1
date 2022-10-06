@@ -8,7 +8,7 @@ namespace KnowledgeCheck1_Calculator
 {
     class Program
     {
-        static bool NumberPlacement(string calFunt, out int num1, out int num2)
+        public static bool NumberPlacement(string calFunt, out int num1, out int num2)
         {
             Console.WriteLine("Enter 2 integers to " + calFunt);
             var number1 = Console.ReadLine();
@@ -28,7 +28,7 @@ namespace KnowledgeCheck1_Calculator
                 return false;
             }
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             Console.WriteLine("Hello. Press 1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division");
